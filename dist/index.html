@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katya-app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="img/logo.png" alt="logo" class = "logo">
+    </nav>
+    <section class="container-outfits">
+
+    <!-- 
+        <div class = "outfit">
+            <h3>Name</h3>
+        </div>
+    -->
+
+        <button class= "btn-add"><ion-icon name="add-outline" class =" icon-add"></ion-icon></button>
+
+    </section>
+
+    <div class="modal">
+        <div class = "modal-content"> 
+            <div class ="modal-close-bar">
+                <span>X</span>
+            </div>
+            <h2>Podaj nazwę stroju</h2>
+            <form>
+                <input type="text" name="name" class="inp-name" required="">
+                <label for="name">Name</label>
+            </form>
+            <button class= "btn-save">Save</button>
+        </div>
+    </div>
+
+    <div class = "modal-edit-outfit">
+        <div class = "modal-outfit-content">
+            <div class ="modal-close-bar2">
+                <span>X</span>
+            </div>
+            <div class = 'work edit'>Praca</div>
+            <div class = 'kam edit'>Kamienie</div>
+            <div class = 'kam-przy edit'>Kamienie prz.</div>
+        </div>
+    </div>
+    
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="js/bundle.js"></script>
+</body>
+</html>
+
